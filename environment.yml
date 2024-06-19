@@ -5,6 +5,7 @@ channels:
   - conda-forge
   - cmts
   - eumetsat
+  - coecms
 dependencies:
   # Core
   - conda-forge::bokeh=3.2.1
@@ -23,3 +24,8 @@ dependencies:
   # External
   - cmts::eumartools
   - eumetsat::eumdac
+  - coecms::xmhw
+  # Extension
+  - conda-forge::copernicusmarine
+  - conda-forge::pandas
+  - conda-forge::xcube

@@ -4,7 +4,7 @@ description: Compendium of training content associated with concepts, models and
 copyright: 2024 EUMETSAT
 license_spdx: MIT
 date: 01-06-2024
-home_url: https://gitlab.eumetsat.int/eumetlab/oceans/ocean-training/applications/altimetry-applications
+home_url: https://gitlab.eumetsat.int/eumetlab/oceans/ocean-training/applications/sea-surface-temperature-applications
 
 # Package IPR documentation
 license_text_file: LICENSE.txt
@@ -12,15 +12,23 @@ license_text_file: LICENSE.txt
 # File(s) associated to this component
 
 about_resource: ./1_concepts_and_models/.gitkeep
-about_resource: ./2_methodological_approaches/.gitkeep
+about_resource: ./2_methodological_approaches/Anomalies/Anomalies.ipynb
+about_resource: ./2_methodological_approaches/MHW/Marine_heat_waves.ipynb
 about_resource: ./.gitmodules
 about_resource: ./.gitignore
 about_resource: ./AUTHORS.txt
 about_resource: ./Index.ipynb
 about_resource: ./LICENSE.txt
 about_resource: ./README.txt
-about_resource: ./altimetry-applications.ABOUT
+about_resource: ./sea-surface-temperature-applications.ABOUT
 about_resource: ./environment.yml
+about_resource: ./img/thumbs/Anomalies_thumb.png
 about_resource: ./img/thumbs/Index_thumb.png
+about_resource: ./img/thumbs/Marine_heat_waves_thumb.png
 
 # Notes:
+
+The images contained in the ./img/thumbs folder are generated using the 
+matplotlib tool. The matplotlib tool does not extend its license/copyright to 
+figures produced by the package. The figures are covered by the package IPR
+documentation as specified in the license text file.
