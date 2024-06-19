@@ -1,25 +1,25 @@
-# copyright: 2022 EUMETSAT
+# copyright: 2024 EUMETSAT
 # license: LICENSE.txt
-name: cmts_learn_olci
+name: cmts_sea_surface_temperature_applications
 channels:
   - conda-forge
   - cmts
   - eumetsat
 dependencies:
-  - conda-forge::python=3.9
-  - conda-forge::notebook=6.4.11
-  - conda-forge::xarray
-  - conda-forge::netcdf4
-  - conda-forge::shapely
-  - conda-forge::matplotlib
+  # Core
+  - conda-forge::bokeh=3.2.1
   - conda-forge::cartopy
-  - conda-forge::jupyter_contrib_nbextensions
-  - conda-forge::ipywidgets
-  - conda-forge::scikit-image
-  - conda-forge::plotly
-  - conda-forge::bokeh
-  - conda-forge::ipykernel
   - conda-forge::cmocean
-  - cmts::hda
+  - conda-forge::dask
+  - conda-forge::distributed
+  - conda-forge::hda
+  - conda-forge::ipywidgets
+  - conda-forge::jupyterlab
+  - conda-forge::matplotlib
+  - conda-forge::netcdf4
+  - conda-forge::python=3.10
+  - conda-forge::scipy
+  - conda-forge::xarray
+  # External
   - cmts::eumartools
   - eumetsat::eumdac
