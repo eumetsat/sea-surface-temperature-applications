@@ -57,9 +57,14 @@ operating system. Anaconda Python distributions include Jupyter Notebook.
 |xarray|2024.6.0|Apache-2.0|https://anaconda.org/conda-forge/xarray|
 |eumartools|0.0.1|MIT|https://anaconda.org/cmts/eumartools|
 |eumdac|2.2.2|MIT|https://anaconda.org/eumetsat/eumdac|
-|copernicusmarine|1.2.4|EUPL-1.2|https://pypi.org/project/copernicusmarine|
+|copernicusmarine|1.2.4|EUPL-1.2**|https://pypi.org/project/copernicusmarine|
 |pandas|2.2.2|BSD-3|https://anaconda.org/conda-forge/pandas|
 |xcube|1.5.1|MIT|https://anaconda.org/conda-forge/xcube|
+
+** The copernicusmarine module is distributed under the EUPL license. However, it is only used as a tool 
+for its intended purpose, and does not affect the distribution license of this repository. Please see 
+[EUPL clarification](https://joinup.ec.europa.eu/collection/eupl/discussion/ultimately-how-copyleft-eupl) 
+for more details.
 
 ## Installation
 
