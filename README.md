@@ -9,7 +9,7 @@
 <hr>
 
 ## Overview
-This software was developed for EUMETSAT under contract [add contract reference], funded by the European Union under the Copernicus component of the EU Space Programme. 
+This software was developed for EUMETSAT under contract EUM/CO/21/4600002620, funded by the European Union under the Copernicus component of the EU Space Programme. 
 
 The **sea-surface-temperature-applications** module consists of a collection of python-based Jupyter-notebooks 
 that demonstrate some common methodologies employed in the field of sea surface temperature (SST). The focus is predominantly on SST products made available by EUMETSAT through the Copernicus programme (e.g. those from Sentinel-3 SLSTR) but also includes information on general principles of SST retrieval. It features examples of typical workflows and approaches relevant to multi-sensor analysis, amongst others.
