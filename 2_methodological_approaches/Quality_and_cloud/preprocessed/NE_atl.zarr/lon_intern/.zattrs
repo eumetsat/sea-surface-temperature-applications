@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "lon_intern"
+    ],
+    "long_name": "longitude",
+    "standard_name": "longitude",
+    "units": "degrees_east",
+    "valid_max": 5.766176297874651,
+    "valid_min": -26.466059207092705
+}

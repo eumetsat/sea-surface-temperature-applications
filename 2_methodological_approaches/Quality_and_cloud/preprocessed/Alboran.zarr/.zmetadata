@@ -1,0 +1,243 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "Conventions": "CF-1.4",
+            "NCO": "netCDF Operators version 5.2.9 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco, Citation = 10.1016/j.envsoft.2008.03.004)",
+            "TileSize": "541:536",
+            "auto_grouping": "brightness_temperature:nedt",
+            "history": "Tue Nov 26 13:58:31 2024: ncks -C -O -x -v lat mytest.nc Alboran.nc\nTue Nov 26 13:58:10 2024: ncks -C -O -x -v lon Alboran.nc mytest.nc\nTue Nov 26 11:57:01 2024: ncatted -O -a long_name,SST_skin_Q4plus,o,c,SST-skin-Q4 Alboran.nc\nTue Nov 26 11:41:41 2024: ncatted -O -a long_name,SST_skin_Q4plus,o,c,SST-skin-Q4 Alboran.nc\nTue Nov 26 11:07:13 2024: ncatted -O -a long_name,brightness_temperature_channel_3,o,c,Top of atmosphere brightness temperature (S9) Alboran.nc\nTue Nov 26 11:07:13 2024: ncatted -O -a long_name,brightness_temperature_channel_2,o,c,Top of atmosphere brightness temperature (S8) Alboran.nc\nTue Nov 26 11:07:13 2024: ncatted -O -a long_name,brightness_temperature_channel_1,o,c,Top of atmosphere brightness temperature (S7) Alboran.nc\nTue Nov 26 11:07:13 2024: ncatted -O -a long_name,SST_skin_Q4plus,o,c,SST-skin-Q4 Alboran.nc\nTue Nov 26 11:07:13 2024: ncks -v SST_skin_Q4plus,brightness_temperature_channel_1,brightness_temperature_channel_2,brightness_temperature_channel_3 test.nc Alboran.nc\nTue Nov 26 11:06:39 2024: ncatted -O -a long_name,brightness_temperature_channel_3,o,c,Top of atmosphere brightness temperature (S9) Alboran.nc\nTue Nov 26 11:06:39 2024: ncatted -O -a long_name,brightness_temperature_channel_2,o,c,Top of atmosphere brightness temperature (S8) Alboran.nc\nTue Nov 26 11:06:39 2024: ncatted -O -a long_name,brightness_temperature_channel_1,o,c,Top of atmosphere brightness temperature (S7) Alboran.nc\nTue Nov 26 11:06:39 2024: ncatted -O -a long_name,SST_skin_Q4plus,o,c,SST-skin-Q4 Alboran.nc",
+            "metadata_profile": "beam",
+            "metadata_version": "0.5",
+            "product_type": "SL_2_WST",
+            "start_date": "21-MAY-2024 21:59:06.433140",
+            "stop_date": "21-MAY-2024 21:59:06.433140",
+            "title": "SENTINEL-3 SLSTR Level 2 Water Product"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "SST_skin_Q4plus/.zarray": {
+            "chunks": [
+                1,
+                541,
+                536
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1,
+                1082,
+                1606
+            ],
+            "zarr_format": 2
+        },
+        "SST_skin_Q4plus/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat_intern",
+                "lon_intern"
+            ],
+            "coordinates": "lat lon",
+            "long_name": "SST-skin-Q4"
+        },
+        "brightness_temperature_channel_1/.zarray": {
+            "chunks": [
+                1,
+                541,
+                536
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1,
+                1082,
+                1606
+            ],
+            "zarr_format": 2
+        },
+        "brightness_temperature_channel_1/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat_intern",
+                "lon_intern"
+            ],
+            "coordinates": "lat lon",
+            "long_name": "Top of atmosphere brightness temperature (S7)",
+            "units": "kelvin"
+        },
+        "brightness_temperature_channel_2/.zarray": {
+            "chunks": [
+                1,
+                541,
+                536
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1,
+                1082,
+                1606
+            ],
+            "zarr_format": 2
+        },
+        "brightness_temperature_channel_2/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat_intern",
+                "lon_intern"
+            ],
+            "coordinates": "lat lon",
+            "long_name": "Top of atmosphere brightness temperature (S8)",
+            "units": "kelvin"
+        },
+        "brightness_temperature_channel_3/.zarray": {
+            "chunks": [
+                1,
+                541,
+                536
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1,
+                1082,
+                1606
+            ],
+            "zarr_format": 2
+        },
+        "brightness_temperature_channel_3/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat_intern",
+                "lon_intern"
+            ],
+            "coordinates": "lat lon",
+            "long_name": "Top of atmosphere brightness temperature (S9)",
+            "units": "kelvin"
+        },
+        "lat_intern/.zarray": {
+            "chunks": [
+                1082
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1082
+            ],
+            "zarr_format": 2
+        },
+        "lat_intern/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lat_intern"
+            ],
+            "long_name": "latitude",
+            "standard_name": "latitude",
+            "units": "degrees_north",
+            "valid_max": 42.74800822781149,
+            "valid_min": 30.56555316494528
+        },
+        "lon_intern/.zarray": {
+            "chunks": [
+                1606
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1606
+            ],
+            "zarr_format": 2
+        },
+        "lon_intern/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lon_intern"
+            ],
+            "long_name": "longitude",
+            "standard_name": "longitude",
+            "units": "degrees_east",
+            "valid_max": 4.865182128468671,
+            "valid_min": -13.222551799283659
+        },
+        "time/.zarray": {
+            "chunks": [
+                1
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "calendar": "proleptic_gregorian",
+            "units": "days since 2024-05-21 00:00:00"
+        }
+    },
+    "zarr_consolidated_format": 1
+}

@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "lat_intern",
+        "lon_intern"
+    ],
+    "coordinates": "lat lon",
+    "long_name": "Top of atmosphere brightness temperature (S9)",
+    "units": "kelvin"
+}

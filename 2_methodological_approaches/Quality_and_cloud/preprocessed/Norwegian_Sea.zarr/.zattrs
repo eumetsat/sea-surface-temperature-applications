@@ -1,0 +1,13 @@
+{
+    "Conventions": "CF-1.4",
+    "NCO": "netCDF Operators version 5.2.9 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco, Citation = 10.1016/j.envsoft.2008.03.004)",
+    "TileSize": "595:478",
+    "auto_grouping": "brightness_temperature:nedt",
+    "history": "Tue Nov 26 14:35:45 2024: ncatted -O -a long_name,brightness_temperature_channel_3,o,c,Top of atmosphere brightness temperature (S9) Norwegian_Sea.nc\nTue Nov 26 14:35:45 2024: ncatted -O -a long_name,brightness_temperature_channel_2,o,c,Top of atmosphere brightness temperature (S8) Norwegian_Sea.nc\nTue Nov 26 14:35:45 2024: ncatted -O -a long_name,brightness_temperature_channel_1,o,c,Top of atmosphere brightness temperature (S7) Norwegian_Sea.nc\nTue Nov 26 14:35:45 2024: ncatted -O -a long_name,SST_skin_Q4plus,o,c,SST-skin-Q4 Norwegian_Sea.nc\nTue Nov 26 14:35:44 2024: ncks -C -O -x -v lon,lat test2.nc Norwegian_Sea.nc\nTue Nov 26 14:35:22 2024: ncks -v SST_skin_Q4plus,brightness_temperature_channel_1,brightness_temperature_channel_2,brightness_temperature_channel_3 test.nc test2.nc",
+    "metadata_profile": "beam",
+    "metadata_version": "0.5",
+    "product_type": "SL_2_WST",
+    "start_date": "13-APR-2023 20:40:23.078185",
+    "stop_date": "13-APR-2023 20:40:23.078185",
+    "title": "SENTINEL-3 SLSTR Level 2 Water Product"
+}

@@ -1,0 +1,9 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "lat_intern",
+        "lon_intern"
+    ],
+    "coordinates": "lat lon",
+    "long_name": "SST-skin-Q4"
+}
