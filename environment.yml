@@ -28,4 +28,4 @@ dependencies:
   # Extension
   - conda-forge::copernicusmarine
   - conda-forge::pandas
-  - conda-forge::xcube
+  - conda-forge::xcube=1.5
