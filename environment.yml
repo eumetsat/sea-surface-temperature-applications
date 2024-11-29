@@ -1,6 +1,6 @@
 # copyright: 2024 European Union
 # license: LICENSE.txt
-name: cmts_sea_surface_temperature_applications
+name: cmts_sst_applications
 channels:
   - conda-forge
   - cmts

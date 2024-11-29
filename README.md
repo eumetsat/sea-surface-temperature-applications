@@ -135,10 +135,10 @@ Once the line above is run, to create out Python environment, we run:
 
 `conda env create -f environment.yml --solver=libmamba`
 
-This will create a Python environment called **cmts_ocean_case_studies**. The environment 
+This will create a Python environment called **cmts_sst_applications**. The environment 
 won't be activated by default. To activate it, run:
 
-`conda activate cmts_sea_surface_temperature_applications`
+`conda activate cmts_sst_applications`
 
 Now you are ready to go!
 
