@@ -8,14 +8,14 @@ channels:
   - coecms
 dependencies:
   # Core
-  - conda-forge::bokeh=3.2.1
+#  - conda-forge::bokeh=3.2.1
   - conda-forge::cartopy
   - conda-forge::cmocean
-  - conda-forge::dask
-  - conda-forge::distributed
-  - conda-forge::hda
-  - conda-forge::ipywidgets
-  - conda-forge::jupyterlab
+#  - conda-forge::dask
+#  - conda-forge::distributed
+#  - conda-forge::hda
+#  - conda-forge::ipywidgets
+#  - conda-forge::jupyterlab
   - conda-forge::matplotlib
   - conda-forge::netcdf4
   - conda-forge::python=3.10
@@ -24,7 +24,7 @@ dependencies:
   # External
   - cmts::eumartools
   - eumetsat::eumdac
-  - coecms::xmhw
+#  - coecms::xmhw
   # Extension
   - conda-forge::copernicusmarine
   - conda-forge::pandas
