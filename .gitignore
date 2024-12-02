@@ -28,13 +28,11 @@ wheels/
 # Large data
 *.nc
 *.zip
+**/products*
 
 # OSx junk
 *DS_Store*
 
 # Repo specific
-1_OLCI_introductory/products/
-1_OLCI_introductory/*.png
-2_OLCI_advanced/products/
-2_OLCI_advanced/*.png
-2_OLCI_advanced/outputs
+1_concepts_and_models/**/*.png
+2_methodological_approaches/**/*.png

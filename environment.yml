@@ -16,6 +16,7 @@ dependencies:
   - conda-forge::hda
   - conda-forge::ipywidgets
   - conda-forge::jupyterlab
+  - conda-forge::ipykernel
   - conda-forge::matplotlib
   - conda-forge::netcdf4
   - conda-forge::python=3.10
