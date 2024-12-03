@@ -14,6 +14,14 @@ license_text_file: LICENSE.txt
 about_resource: ./1_concepts_and_models/.gitkeep
 about_resource: ./2_methodological_approaches/Anomalies/Anomalies.ipynb
 about_resource: ./2_methodological_approaches/MHW/Marine_heat_waves.ipynb
+about_resource: ./2_methodological_approaches/Quality_and_cloud/Thermal_image_interpretation_SST_estimation.ipynb
+about_resource: ./2_methodological_approaches/Quality_and_cloud/preprocessed/Alboran.zarr
+about_resource: ./2_methodological_approaches/Quality_and_cloud/preprocessed/NE_atl.zarr
+about_resource: ./2_methodological_approaches/Quality_and_cloud/preprocessed/NW_med.zarr
+about_resource: ./2_methodological_approaches/Quality_and_cloud/preprocessed/Norwegian_Sea.zarr
+about_resource: ./2_methodological_approaches/Selection_and_validation/Selecting_exploring_validating_SST_products.ipynb
+about_resource: ./2_methodological_approaches/Selection_and_validation/tracks/ESA_OTC_2025_cruise_track.geojson
+about_resource: ./2_methodological_approaches/Selection_and_validation/tracks/PS135_2_surf_oce.txt
 about_resource: ./.gitmodules
 about_resource: ./.gitignore
 about_resource: ./AUTHORS.txt
@@ -22,9 +30,15 @@ about_resource: ./LICENSE.txt
 about_resource: ./README.txt
 about_resource: ./sea-surface-temperature-applications.ABOUT
 about_resource: ./environment.yml
+about_resource: ./img/CMEMS_SST.png
+about_resource: ./img/Cruise_track.png
+about_resource: ./img/SST_Alboran.png
+about_resource: ./img/SST_diurnal.png
 about_resource: ./img/thumbs/Anomalies_thumb.png
 about_resource: ./img/thumbs/Index_thumb.png
 about_resource: ./img/thumbs/Marine_heat_waves_thumb.png
+about_resource: ./img/thumbs/Thermal_image_interpretation_SST_estimation_thumb.png
+about_resource: ./img/thumbs/Selecting_exploring_validating_SST_products_thumb.png
 
 # Notes:
 
