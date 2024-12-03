@@ -181,7 +181,7 @@ README to access the systems. For WEkEO you should choose the "Earth Observation
 
 2. Open a terminal (you can use the + icon on the left hand side of the menu bar to do this)
 
-3. If you are running on WEkEO, access the "work" directory by typeingclone the repository using
+3. If you are running on WEkEO, access the "work" directory by typeingclone the repository using (you can skip this if running on DestinE);
 
 `cd ~/work`
 
@@ -189,24 +189,28 @@ README to access the systems. For WEkEO you should choose the "Earth Observation
 
 `git clone --recurse-submodules --remote-submodules https://gitlab.eumetsat.int/eumetlab/oceans/ocean-training/applications/sea-surface-temperature-applications.git`
 
-5. create the python environment using
+5. Enter the repository directory using
+
+`cd sea-surface-temperature-applications`
+
+6. create the python environment using
 
 `conda env create -f environment.yml --solver=libmamba -y`
 
-6. initialise the conda environment with
+7. initialise the conda environment with
 
 `conda init zsh`
 `source ~/.zshrc`
 
-7. activate the environment with
+8. activate the environment with
 
 `conda activate cmts_sst_applications`
 
-8. add a kernel to your system with
+9. add a kernel to your system with
 
 `ipython kernel install --name cmts_sst_applications --user`
 
-9. make some minor fixes
+10. make some minor fixes
 
 `conda remove --force pyproj -y`
 `pip install pyproj`
