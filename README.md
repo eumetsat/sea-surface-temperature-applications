@@ -199,8 +199,7 @@ README to access the systems. For WEkEO you should choose the "Earth Observation
 
 7. initialise the conda environment with
 
-`conda init zsh`
-`source ~/.zshrc`
+`conda init zsh; source ~/.zshrc`
 
 8. activate the environment with
 
@@ -212,10 +211,9 @@ README to access the systems. For WEkEO you should choose the "Earth Observation
 
 10. make some minor fixes
 
-`conda remove --force pyproj -y`
-`pip install pyproj`
+`conda remove --force pyproj -y; pip install pyproj`
 
-You should now be able to select the kernel from the menu bar in the top right hand side of any notebook you run.
+11. You should now be able to select the kernel from the menu bar in the top right hand side of any notebook you run.
 
 *Note: it sometimes takes a few seconds for the kernel to register in the notebook itself*
 
