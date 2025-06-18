@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/python%203.10-anaconda-green)](https://www.anaconda.com/products/distribution)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
 [![EUMETLAB](https://img.shields.io/badge/open-EUMETLAB-E67E22.svg)](https://gitlab.eumetsat.int/eumetlab/oceans/ocean-training/applications/sea-surface-temperature-applications)
-[![USER PORTAL](https://img.shields.io/badge/open-USER%20PORTAL-154360.svg)](https://user.eumetsat.int/search-view?sort=startDate%20desc&facets=%7B%22contentTypes%22:%5B%22Resources%7CCase%20studies%22%5D,%22theme%22:%5B%22Marine%22,%22Marine%7CMaritime%20safety%22,%22Marine%7COcean%20biogeochemistry%22,%22Marine%7COcean%20dynamics%22,%22Marine%7CWater%20quality%22%5D%7D)
+[![USER PORTAL](https://img.shields.io/badge/open-USER%20PORTAL-154360.svg)](https://user.eumetsat.int/data/themes/marine)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.eumetsat.int%2Feumetlab%2Foceans%2Focean-training%2Fapplications%2Fsea-surface-temperature-applications/HEAD?labpath=Index.ipynb)
 [![WEkEO](https://img.shields.io/badge/launch-WEKEO-1a4696.svg)](https://jupyterhub.prod.wekeo2.eu/hub/user-redirect/lab/tree/public/wekeo4oceans/sea-surface-temperature-applications/Index.ipynb)
 [![DestinE](https://img.shields.io/badge/launch-DestinE-f43fd3.svg)](https://code.insula.destine.eu/hub/)
@@ -17,12 +17,15 @@
 This software was developed for EUMETSAT under contract EUM/CO/21/4600002620, funded by the 
 European Union under the Copernicus component of the EU Space Programme. 
 
-The **sea-surface-temperature-applications** module consists of a collection of python-based Jupyter-notebooks 
-that demonstrate some common methodologies employed in the field of sea surface temperature (SST). The focus is predominantly on SST products made available by EUMETSAT through the Copernicus programme (e.g. those from Sentinel-3 SLSTR) but also includes information on general principles of SST retrieval. It features examples of typical workflows and approaches relevant to multi-sensor analysis, amongst others.
+The **sea-surface-temperature-applications** module consists of a collection of python-based Jupyter-notebooks that demonstrate some common methodologies employed in the field of sea surface temperature (SST). The focus is predominantly on SST products made available by EUMETSAT through the Copernicus programme (e.g. those from Sentinel-3 SLSTR) but also includes information on general principles of SST retrieval. It features examples of typical workflows and approaches relevant to multi-sensor analysis, amongst others.
 
 Users looking for more information on using products from the Sentinel-3 Sea and Land Surface Radiometer (SLSTR) in the marine domain are encouraged to check out our [learn-slstr](https://gitlab.eumetsat.int/eumetlab/oceans/ocean-training/sensors/learn-slstr) repository.
 
 For any questions about this repository, please contact ops@eumetsat.int.
+
+## Ownership
+
+This software and all associated intellectual property rights (IPRs) are owned by the European Union.
 
 ## License
 
@@ -163,7 +166,7 @@ This should open Jupyter Notebooks in a browser window. On occasion, Jupyter may
 be able to open a window and will give you a URL to past in your browser. Please do
 so, if required.
 
-*Note: Jupyter Notebook is not able to find modules that are 'above' it in a directory 
+*Note: Jupyter Lab is not able to find anything that is 'above' it in a directory 
 tree, and you will unable to navigate to these. So make sure you run the line above 
 from the correct directory!*
 
@@ -177,12 +180,11 @@ the correct environment, Jupyter will load it into your the "kernel" which runs 
 have to add the kernel to the system and apply it manually when we run. Below are the steps you need to run on WEkEO or the 
 DestinE Insula Code platforms to configure this repository and run these notebooks;
 
-1. Open JupyterHub: You will need a WEkEO or InsulaCode account to open their respective Jupyter Hubs. You can use the buttons at the top of this 
-README to access the systems. For WEkEO you should choose the "Earth Observation Tools" server.
+1. Open JupyterHub: You will need a WEkEO or InsulaCode account to open their respective Jupyter Hubs. You can use the buttons at the top of this README to access the systems. For WEkEO you should choose the "Earth Observation Tools" server.
 
 2. Open a terminal (you can use the + icon on the left hand side of the menu bar to do this)
 
-3. If you are running on WEkEO, access the "work" directory by typeingclone the repository using (you can skip this if running on DestinE);
+3. If you are running on WEkEO, access the "work" directory by typing (you can skip this if running on DestinE);
 
 `cd ~/work`
 
